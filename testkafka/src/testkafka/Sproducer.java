@@ -29,7 +29,7 @@ public class Sproducer {
 		KeyedMessage<Integer, String> data = new KeyedMessage<Integer, String>(topic, messageStr);
 		producer.send(data);
 		producer.close();
-		string next="hai";
+		string next="ha";
 
 	}
 
